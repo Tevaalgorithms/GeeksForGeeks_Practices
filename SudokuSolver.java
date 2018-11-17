@@ -46,7 +46,7 @@ Output:
 
 */
 
-public class Sudoku_Solver
+public class SudokuSolver
 {
      
 static boolean solve_Sudoku(int[][] grid, int n)
