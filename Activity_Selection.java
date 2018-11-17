@@ -31,32 +31,32 @@ Output:
 
 import java.util.*;
 
-class Activity_Selection 
+class ActivitySelection 
 {
 	public static void main (String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);
 		
-   // Get the total number of testcases
+  		 // Get the total number of testcases
 		int t = sc.nextInt();
                 
 		int n;
 		
-     // Iterate the test cases
+     		// Iterate the test cases
 		for(int tc = 0;tc < t;tc++)
 		{
-        // Get total number of activities for each test cases
+        	  // Get total number of activities for each test cases
 		    n = sc.nextInt();
 		    
-        // Create array for storing start time of activities
+        	   // Create array for storing start time of activities
 		    int[] start = new int[n];
                     
-        // Create array for storing end time of activities
+       		  // Create array for storing end time of activities
 		    int[] end = new int[n];
 		    
 		    Map<Integer,ArrayList<Integer>> m = new TreeMap<Integer,ArrayList<Integer>>();
 		    
-        // Getting values for starting time of activites
+       		 // Getting values for starting time of activites
 		    for(int i = 0;i < n;i++)
 		        start[i]=sc.nextInt();
 		        
